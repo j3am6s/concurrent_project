@@ -38,8 +38,8 @@ def main():
     v = args.vaccinated
     initial_infected = min(args.initial_infected, n)
 
-    n_houses = math.ceil(0.3 * n)
-    n_locations = math.ceil(0.2 * n)
+    n_houses = math.ceil(0.25 * n)
+    n_locations = math.ceil(0.1 * n)
 
     houses = [f"H{i}" for i in range(n_houses)]
     locations = [f"L{i}" for i in range(n_locations)]
